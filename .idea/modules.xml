@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HomeWork1/HomeWork1.iml" filepath="$PROJECT_DIR$/HomeWork1/HomeWork1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2_1/HomeWork2_1.iml" filepath="$PROJECT_DIR$/HomeWork2_1/HomeWork2_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2_2/HomeWork2_2.iml" filepath="$PROJECT_DIR$/HomeWork2_2/HomeWork2_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2_3/HomeWork2_3.iml" filepath="$PROJECT_DIR$/HomeWork2_3/HomeWork2_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2_4/HomeWork2_4.iml" filepath="$PROJECT_DIR$/HomeWork2_4/HomeWork2_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2_5/HomeWork2_5.iml" filepath="$PROJECT_DIR$/HomeWork2_5/HomeWork2_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2_6/HomeWork2_6.iml" filepath="$PROJECT_DIR$/HomeWork2_6/HomeWork2_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2_7/HomeWork2_7.iml" filepath="$PROJECT_DIR$/HomeWork2_7/HomeWork2_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2_8/HomeWork2_8.iml" filepath="$PROJECT_DIR$/HomeWork2_8/HomeWork2_8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork3_1/HomeWork3_1.iml" filepath="$PROJECT_DIR$/HomeWork3_1/HomeWork3_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork3_2/HomeWork3_2.iml" filepath="$PROJECT_DIR$/HomeWork3_2/HomeWork3_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork3_3/HomeWork3_3.iml" filepath="$PROJECT_DIR$/HomeWork3_3/HomeWork3_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork3_4/HomeWork3_4.iml" filepath="$PROJECT_DIR$/HomeWork3_4/HomeWork3_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork3_5/HomeWork3_5.iml" filepath="$PROJECT_DIR$/HomeWork3_5/HomeWork3_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork3_6/HomeWork3_6.iml" filepath="$PROJECT_DIR$/HomeWork3_6/HomeWork3_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork3_7/HomeWork3_7.iml" filepath="$PROJECT_DIR$/HomeWork3_7/HomeWork3_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork3_String_1/HomeWork3_String_1.iml" filepath="$PROJECT_DIR$/HomeWork3_String_1/HomeWork3_String_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork3_String_2/HomeWork3_String_2.iml" filepath="$PROJECT_DIR$/HomeWork3_String_2/HomeWork3_String_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork4_IntArray/HomeWork4_IntArray.iml" filepath="$PROJECT_DIR$/HomeWork4_IntArray/HomeWork4_IntArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork4_Phone/HomeWork4_Phone.iml" filepath="$PROJECT_DIR$/HomeWork4_Phone/HomeWork4_Phone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork5_Library/HomeWork5_Library.iml" filepath="$PROJECT_DIR$/HomeWork5_Library/HomeWork5_Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HomeWorks.iml" filepath="$PROJECT_DIR$/.idea/HomeWorks.iml" />
+    </modules>
+  </component>
+</project>
