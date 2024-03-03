@@ -1,3 +1,16 @@
+/*
+Exercise 7. Task 1
+1.	Составляем строку с помощью класса StringBuilder
+Дано два числа, например 3 и 56, необходимо составить следующие строки:
+3 + 56 = 59
+3 – 56 = -53
+3 * 56 = 168.
+Используем метод StringBuilder.append().
+Замените символ “=” на слово “равно”. Используйте метод StringBuilder.replace()
+
+ */
+
+
 import java.util.Scanner;
 
 public class Main {
