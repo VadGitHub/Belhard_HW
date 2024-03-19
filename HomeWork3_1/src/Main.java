@@ -10,30 +10,34 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        Random rnd = new Random();
         int[] array = new int[4];
         int minRng = 10;
         int maxRng = 99;
         int preValue = 0;
         boolean isIncrease = true;
+        Random rnd = new Random();
 
-        for (int i = 0; i < array.length; i++){
+        // генерация и вывод массива
+        System.out.println("Полученный массив: ");
+        for (int i = 0; i < array.length; i++) {
             array[i] = rnd.nextInt(maxRng + 1 - minRng) + minRng;
+            System.out.print(array[i] + " ");
         }
 
-        System.out.println("Полученный массив:");
-        for (int i : array){
-            System.out.print(i + " ");
+        //определение последовательности (возрастающая?)
+        for (int i : array) {
             if (isIncrease && i < preValue) {
                 isIncrease = false;
             }
             preValue = i;
         }
 
-        if (isIncrease){
+        if (isIncrease) {
             System.out.println("\nМассив имеет строго возрастающую последовательность");
-        } else { System.out.println("\n" +
-                "Массив НЕ имеет возрастающую последовательность"); }
+        } else {
+            System.out.println("\n" +
+                    "Массив НЕ имеет возрастающую последовательность");
+        }
 
     }
 }
