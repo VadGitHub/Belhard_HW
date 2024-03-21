@@ -48,7 +48,7 @@ public class Main {
                     readerIndex = findReaderByNumCard(readers);
                     if (readerIndex >= 0) {
                         if (readers[readerIndex].getListBookFreeIndex() != -1) {
-                            Book book = new Book();
+                            Book book = getBook();
                             readers[readerIndex].takeBook(book);
                         }//else {break;}
                     } else {
@@ -81,7 +81,7 @@ public class Main {
                             readerCounter++;
                         }
                     }
-                    if (readerCounter == 0){
+                    if (readerCounter == 0) {
                         System.out.println("Нет читателей");
                     }
                     break;
@@ -102,6 +102,18 @@ public class Main {
             }
 
         } while (choice != 7);
+
+    }
+
+    public static Book getBook() {
+        Scanner scan = new Scanner(System.in);
+        Book book = new Book();
+        System.out.print("Введите название книги: ");
+        book.setName(scan.nextLine());
+        System.out.print("Введите автора: ");
+        book.setAuthorName(scan.nextLine());
+
+        return book;
 
     }
 

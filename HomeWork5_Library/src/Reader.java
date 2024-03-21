@@ -10,36 +10,33 @@ public class Reader {
     private String faculity;
     private String dateBirth;
     private String phone;
-    private String[] listBooks;
+    private String[] listBooks; //в след.версии исправлено на массив книг
     Scanner scan;
     Random rnd;
 
     public Reader() {
         scan = new Scanner(System.in);
-        do {System.out.print("Введите фамилию: ");
+        do {
+            System.out.print("Введите фамилию: ");
             fName = scan.nextLine();
-        }while (fName.isEmpty());
+        } while (fName.isEmpty());
 
-        do {System.out.print("Введите имя: ");
+        do {
+            System.out.print("Введите имя: ");
             sName = scan.nextLine();
-        }while (sName.isEmpty());
+        } while (sName.isEmpty());
 
-        do {System.out.print("Введите отчество: ");
+        do {
+            System.out.print("Введите отчество: ");
             mName = scan.nextLine();
-        }while (mName.isEmpty());
+        } while (mName.isEmpty());
 
         //Выдача читательского билета
         rnd = new Random();
         numLibCard = rnd.nextInt(endRngLibCard + 1 - startRngLibCard) + startRngLibCard;
-//        System.out.print("Введите факультет: ");
-//        faculity = scan.nextLine();
-//        System.out.print("Введите номер телефона: ");
-//        phone = scan.nextLine();
-//        System.out.print("Введите дату рождения: ");
-//        dateBirth = scan.nextLine();
 
         //создаем пул списка книг для Читателя
-        listBooks = new String[10];
+        listBooks = new String[10];//в след.версии исправлено на массив книг
 
     }
 
@@ -62,15 +59,15 @@ public class Reader {
         //или
         //вывести «Петров В.В. не хранит книгу Игра Эндера»
         boolean isFound = false;
-        for (int i = 0; i < listBooks.length; i++){
-            if (listBooks[i] != null && listBooks[i].equals(nameBook)){
+        for (int i = 0; i < listBooks.length; i++) {
+            if (listBooks[i] != null && listBooks[i].equals(nameBook)) {
                 listBooks[i] = null;
                 isFound = true;
                 System.out.println(getFullName() + " вернул книгу " + nameBook);
                 break;
             }
         }
-        if (!isFound){
+        if (!isFound) {
             System.out.println(getFullName() + " не хранит книгу " + nameBook);
 
         }
@@ -92,7 +89,7 @@ public class Reader {
         if (!lineBooks.isEmpty()) {
             System.out.println(getFullName() + " (№" + getNumLibCard() + ") " + " взял: " + lineBooks);
         } else {
-            System.out.println(getFullName() + " (№" + getNumLibCard() + ") " +" не имеет книг");
+            System.out.println(getFullName() + " (№" + getNumLibCard() + ") " + " не имеет книг");
         }
 
     }
